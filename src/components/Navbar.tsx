@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import logo from "@/assets/logo-new.jpg";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -17,7 +16,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="#home" className="flex items-center gap-2">
-          <img src={logo} alt="Ajanta Exotica" className="h-10 w-auto" />
+          <img
+            src="https://res.cloudinary.com/dti3zwfma/image/upload/v1753192313/logo.png"
+            alt="Ajanta Exotica"
+            className="h-9 w-auto"
+          />
         </a>
 
         {/* Desktop */}
@@ -26,7 +29,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors font-body"
+              className="text-md font-medium text-foreground/80 hover:text-primary transition-colors font-body"
             >
               {link.label}
             </a>

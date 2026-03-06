@@ -21,7 +21,7 @@ const AboutSection = () => {
         >
           <span className="text-primary font-semibold font-body text-sm uppercase tracking-widest">About Us</span>
           <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mt-3 mb-6">
-            More Than Just a Nursery
+           		Not Just a Nursery
           </h2>
           <p className="text-muted-foreground font-body leading-relaxed text-lg">
             Ajanta Exotica is your trusted partner in bringing nature closer to everyday life. As a leading nursery and plant business based in Pune, our mission is to transform homes, offices, and urban spaces into green, vibrant, and healthier environments.

@@ -1,5 +1,4 @@
 import { MapPin, Mail, Phone, ExternalLink } from "lucide-react";
-import logo from "@/assets/logo-new.jpg";
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <img src={logo} alt="Ajanta Exotica" className="h-12 mb-4 brightness-0 invert" />
+            <img src='https://res.cloudinary.com/dti3zwfma/image/upload/v1753192313/logo.png' alt="Ajanta Exotica" className="h-12 mb-4 " />
             <p className="font-body text-sm leading-relaxed text-primary-foreground/60">
               Transforming spaces into vibrant, living environments. Your trusted partner for landscaping, nursery, and green solutions in Pune.
             </p>
@@ -22,12 +21,12 @@ const Footer = () => {
               <li><a href="#services" className="hover:text-primary-foreground transition-colors">Our Services</a></li>
               <li><a href="#portfolio" className="hover:text-primary-foreground transition-colors">Portfolio</a></li>
               <li>
-                <a href="https://ajantaexotica.gallery" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-primary-foreground transition-colors">
-                  Our Store <ExternalLink className="w-3 h-3" />
+                <a href="https://www.instagram.com/ajantaexotica.gallery?igsh=NGV4eGlwZms0b3Yw&utm_source=qr" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-primary-foreground transition-colors">
+                  Instagram Page <ExternalLink className="w-3 h-3" />
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/917499297249" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-primary-foreground transition-colors">
+                <a href="https://api.whatsapp.com/send/?phone=919405455599&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-primary-foreground transition-colors">
                   Chat with Us <ExternalLink className="w-3 h-3" />
                 </a>
               </li>

@@ -64,7 +64,7 @@ const PortfolioSection = () => {
         >
           <div className="grid lg:grid-cols-2">
             <div className="h-64 lg:h-auto">
-              <img src={goaImg} alt="Manohar International Airport, Goa" className="w-full h-full object-cover" />
+              <img src="https://res.cloudinary.com/dfhnxabem/image/upload/v1751520869/bdf12273-ed11-41ed-9400-da7677d9e8f2_jkvhvk.jpg" alt="Manohar International Airport, Goa" className="w-full h-full object-cover" />
             </div>
             <div className="p-8 lg:p-12">
               <span className="text-accent font-body font-bold text-sm uppercase tracking-widest">Featured Project</span>
