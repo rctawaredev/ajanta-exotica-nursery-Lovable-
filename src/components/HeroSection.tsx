@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img src='https://res.cloudinary.com/distnojxb/image/upload/v1772811751/robert-katzki-KLcaQxlmhtk-unsplash_1_jgr5x8.jpg' alt="Lush garden landscape" className="w-full h-full object-cover" />
+        <img src='https://res.cloudinary.com/distnojxb/image/upload/v1772815292/robert-katzki-KLcaQxlmhtk-unsplash_1_oin7m6.webp' alt="Lush garden landscape" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-hero" />
       </div>
 
