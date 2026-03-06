@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import goaImg from "@/assets/goa-airport.jpg";
 import balconyImg from "@/assets/balcony-garden.jpg";
 import officeImg from "@/assets/office-garden.jpg";
 import terraceImg from "@/assets/terrace-garden.jpg";
